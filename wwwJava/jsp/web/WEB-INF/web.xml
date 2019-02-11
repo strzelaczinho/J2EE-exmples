@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+    <servlet>
+        <servlet-name>ToJSP</servlet-name>
+        <servlet-class>ToJSP</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ToJSP</servlet-name>
+        <url-pattern>/ToJSP</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FromJSP</servlet-name>
+        <servlet-class>FromJSP</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FromJSP</servlet-name>
+        <url-pattern>/FromJSP</url-pattern>
+    </servlet-mapping>
+</web-app>

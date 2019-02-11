@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+    <servlet>
+        <servlet-name>Parametry</servlet-name>
+        <servlet-class>Parametry</servlet-class>
+        <init-param>
+            <param-name>numbers</param-name>
+            <param-value>5</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Parametry</servlet-name>
+        <url-pattern>/Parametry</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Pierwsze</servlet-name>
+        <servlet-class>Pierwsze</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Pierwsze</servlet-name>
+        <url-pattern>/Pierwsze</url-pattern>
+    </servlet-mapping>
+</web-app>
